@@ -1,0 +1,314 @@
+<html>
+   <head>
+      <meta content='Techincal Documentaion' author='Naveen S Belandur'/>
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+      <title>Techical Documentaion</title>
+   </head>
+   <body>
+      <!--NavBar-->
+      <section class='bg-dark py-2'>
+         <nav class="navbar navbar-light bg-dark">
+            <div class="container-fluid d-inline-flex justify-content-around">
+               <a class="navbar-brand text-light lead fs-4" >Basics Command of the Linux</a>
+            </div>
+         </nav>
+      </section>
+      <!--Main-->
+      <section class='mb-3'>
+         <div class='container-fluid '>
+            <div class='row gy-3'>
+               <div class='col-3 '>
+                  <div class='card  sticky-top mt-5'>
+                     <div class='card-header '>
+                        <h4 class='lead fw-bold'>Topics Covered</h4>
+                     </div>
+                     <div class='card-body'>
+                        <div class="list-group">
+                           <a href="#introduction" class="list-group-item list-group-item-action list-group-item-warning">Introduction</a>
+                           <a href="#types" class="list-group-item list-group-item-action list-group-item-info">Types of  Linux Distrubtion</a>
+                           <a href="#basics" class="list-group-item list-group-item-action list-group-item-danger">Basics Command of Ubuntu</a>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class='col-9'>
+                  <div class='card bg-light py-4 px-4 mt-5' id='introduction'>
+                     <h3 class='lead fw-bold fs-3'>Introduction</h3>
+                     <p class='lead fs-6'>Linux is an open-source operating system like other operating systems such as Microsoft Windows, Apple Mac OS, iOS, Google android, etc. An operating system is a software that enables the communication between computer hardware and software. It conveys input to get processed by the processor and brings output to the hardware to display it. This is the basic function of an operating system. Although it performs many other important tasks, let's not talk about that.
+                        <br/>
+                        <br/>
+                        Linux is around us since the mid-90s. It can be used from wristwatches to supercomputers. It is everywhere in our phones, laptops, PCs, cars and even in refrigerators. It is very much famous among developers and normal computer users.
+                     </p>
+                     <h3  class='lead fw-bold fs-3 mt-4'>
+                     Evolution of Linux OS</h5>
+                     <p class='lead fs-6'>The Linux OS was developed by <a href='https://en.wikipedia.org/wiki/Linus_Torvalds' target='_blank'> Linus Torvalds </a> in 1991, which sprouted as an idea to improve the UNIX OS. He suggested improvements but was rejected by UNIX designers. Therefore, he thought of launching an OS, designed in a way that could be modified by its users.
+                        Nowadays, Linux is the fastest-growing OS. It is used from phones to supercomputers by almost all major hardware devices.
+                     </p>
+                     <h5 class='lead fw-bold fs-3 mt-4'>How Does Linux Work ?</h5>
+                     <p class='lead fs-6'>Think about an OS like a car engine. An engine can run on its own, but it becomes a functional car when it’s connected with a transmission, axles, and wheels. Without the engine running properly, the rest of the car won’t work.
+                        Linux was designed to be similar to UNIX, but has evolved to run on a wide variety of hardware from phones to supercomputers. Every Linux-based OS involves the Linux kernel—which manages hardware resources—and a set of software packages that make up the rest of the operating system.
+                        The OS includes some common core components, like the GNU tools, among others. These tools give the user a way to manage the resources provided by the kernel, install additional software, configure performance and security settings, and more
+                     </p>
+                     <h5 class='lead fw-bold fs-3 mt-4'>What is a command line</h5>
+                     <p class='lead fs-6'>The command line is your direct access to a computer. It's where you ask software to perform hardware actions that point-and-click graphical user interfaces (GUIs) simply can't ask. 
+                        Command lines are available on many operating systems—proprietary or open source. But it’s usually associated with Linux, because both command lines and open source software, together, give users unrestricted access to their computer.
+                        Our latest release of <a href='https://www.redhat.com/en/topics/linux/what-is-linux' target='_blank'> Red Hat® </a> Enterprise Linux comes with even more built-in command line capabilities than ever before and includes consoles that bundle those capabilities in easy-to-use modules that exist off of the command line.
+                     </p>
+                     <!-- Types of Linux Distrubtion-->
+                     <h3 class='my-4 mt-5 lead fw-bold fs-3' id='types'>Types of Linux Distrubtion</h3>
+                     <div class="accordion mt-2" id="accordionExample">
+                        <div class="accordion-item ">
+                           <h2 class="accordion-header" id="headingOne">
+                              <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                              Debian
+                              </button>
+                           </h2>
+                           <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                              <div class="accordion-body">
+                                 <p class='lead fs-6'>Debian is renowned for being a mother to popular Linux distributions such as Deepin, Ubuntu, and Mint which have provided solid performance, stability, and unparalleled user experience. The latest stable release is Debian 10.5, an update of Debian 10 colloquially known as Debian Buster.The Debian project provides over 59,000 software packages and supports a wide range of PCs with each release encompassing a broader array of system architectures. It strives to strike a balance between cutting edge technology and stability. Debian provides 3 salient development branches: Stable, Testing, and Unstable. Download Link of <a href='http://www.debian.org/distrib/' target='_blank'>Debian</a> </p>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="accordion-item">
+                           <h2 class="accordion-header" id="headingTwo">
+                              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                              Gentoo
+                              </button>
+                           </h2>
+                           <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                              <div class="accordion-body">
+                                 <p class='lead fs-6'>Gentoo is a distro built for professional use and experts who take into consideration what packages they are working with from the word go. This category includes developers, system & network administrators. As such, it’s not ideal for beginners in Linux. Gentoo comes recommended for those who want to have a deeper understanding of the ins and outs of the Linux operating system.Gentoo ships with a package management system known as portage which is also native to other distros such as Sabayon, and Calculate Linux which is based on Gentoo and backward-compatible with it. It is Python-based and based on the ports’ collections concept. Port collections are sets of patches and makefiles provided for by BSD-based distros such as OpenBSD and NetBSD. Download Link of 
+                                    <a href='http://www.gentoo.org/main/en/where.xml.' target='_blank'>Gentoo</a>
+                                 </p>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="accordion-item">
+                           <h2 class="accordion-header" id="headingThree">
+                              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                              Ubuntu
+                              </button>
+                           </h2>
+                           <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                              <div class="accordion-body">
+                                 <p class='lead fs-6'>Created and maintained by Canonical, Ubuntu is one of the most popular Linux distros enjoyed across the globe by beginners, intermediate users, and professionals alike. Ubuntu was specifically designed for beginners in Linux or those transitioning from mac and Windows.By default, Ubuntu ships with GNOME desktop environment with every day out-of-the-box applications such as Firefox, LibreOffice, and image editing applications such as GIMP, music players, and video players such as Audacious and Rhythmbox.
+                                    The latest version is Ubuntu 20.04 LTS codenamed Focal Fossa. It provides numerous improvements and new features such as the new Yaru theme, new look and polished icons, great support for Snap packages, and the fractional scaling functionality that provides support for high-resolution displays.
+                                    Ubuntu forms the basis of several other Linux distributions. Some of the distributions based on Ubuntu 20.04 include Lubuntu 20.04 LTS, Kubuntu 20.04, and Linux Mint 20.04 LTS (Ulyana). Download link of <a href='https://ubuntu.com/download/desktop.' target="_blank">Ubuntu</a>
+                                 </p>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="accordion-item">
+                           <h2 class="accordion-header" id="headingFour">
+                              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                              Linux Mint
+                              </button>
+                           </h2>
+                           <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                              <div class="accordion-body">
+                                 <p class='lead fs-6'>Linux Mint is a hugely popular community-driven Linux distro based on Ubuntu. It has transcended time to provide one of the most elegant, and user-friendly distributions loved by desktop users and professionals alike. Despite the controversy surrounding the latest release – Mint 20 – dropping snap support by default, Mint remains a stable, powerful and outstanding Linux distribution.Based on Ubuntu 20.04 LTS, Mint 20 is available in 3 desktop editions – Cinnamon, XFCE and MATE editions. Mint has dropped support for 32-bit versions and is only available in 64-bit. Under the hood, Linux Mint 20 rides on Linux kernel 5.4 with new enhancements such as improved support for AMD Navi 12, Intel Tiger Lake CPU and NVIDIA GPU. Additionally, the general UI has received a revamp with polished icons, new themes, high-resolution background images and a retouched taskbar. Download  <a href='https://linuxmint.com/download.php' target="_blank">Linux Mint</a></p>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="accordion-item">
+                           <h2 class="accordion-header" id="headingFive">
+                              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                              Red Hat Enterprise Linux
+                              </button>
+                           </h2>
+                           <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#accordionExample">
+                              <div class="accordion-body">
+                                 <p class='lead fs-6'>Abbreviated as RHEL, Red Hat Enterprise Linux is a Linux distro designed for Enterprise or commercial purposes. It’s one of the leading open-source alternatives to other proprietary systems such as Microsoft. Red Hat is usually a top choice for server environments given its stability and regular security patches which boost its overall security.You can readily set it up on physical servers, virtual environments such as VMware, HyperV, and also on the cloud. Red Hat has done a perfect job in containerization technology thanks to OpenShift PaaS (platform as a service), a hybrid cloud environment that is built around Docker containers and managed by Kubernetes. Download and try red hat for free <a href='https://developers.redhat.com/products/rhel/download' target="_blank">Red Hat</a></p>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="accordion-item">
+                           <h2 class="accordion-header" id="headingSix">
+                              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                              CentOs
+                              </button>
+                           </h2>
+                           <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix" data-bs-parent="#accordionExample">
+                              <div class="accordion-body">
+                                 <p class='lead fs-6'>The CentOS Project is a community-driven free operating system that aims at delivering a robust and reliable open source ecosystem. Based on RHEL, CentOS is a perfect alternative to Red Hat Enterprise Linux since it is free to download and install. It gives users the stability and reliability of RHEL while allowing them to enjoy free security and feature updates. CentOS 8 is a favourite among Linux enthusiasts who want to savour the benefits of RHEL.The latest version is CentOS 8.2 which is the third iteration of CentOS 8. It relies on App stream and BaseOS repositories and ships with the latest software packages such as Python 3.8, GCC 9.1, Maven 3.6, etc. Download <a href='https://www.centos.org/centos-linux/.' target="_blank">CentOs</a></p>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="accordion-item">
+                           <h2 class="accordion-header" id="headingSeven">
+                              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
+                              Fedora
+                              </button>
+                           </h2>
+                           <div id="collapseSeven" class="accordion-collapse collapse" aria-labelledby="headingSeven" data-bs-parent="#accordionExample">
+                              <div class="accordion-body">
+                                 <p class='lead fs-6'>Fedora has enjoyed a reputation for being one of the most user-friendly distros for quite a while now owing to its simplicity and out-of-the-box applications which enable newcomers to easily get started
+                                    It’s a powerful and flexible operating system that’s tailored for desktops & laptops, servers, and even for IoT ecosystems. Fedora, just like CentOS, is based on Red Hat and is in fact, a testing environment for Red Hat before transitioning to the Enterprise phase. As such, it’s usually used for development and learning purposes and comes in handy for developers and students.Download <a href='https://getfedora.org/.' target="_blank">Fedora</a>
+                                 </p>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="accordion-item">
+                           <h2 class="accordion-header" id="headingEight">
+                              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseEight" aria-expanded="false" aria-controls="collapseEight">
+                              Kali Linux
+                              </button>
+                           </h2>
+                           <div id="collapseEight" class="accordion-collapse collapse" aria-labelledby="headingEight" data-bs-parent="#accordionExample">
+                              <div class="accordion-body">
+                                 <p class='lead fs-6'>Developed and maintained by offensive security, Kali Linux is a Debian-based Linux distro designed for penetration testing and conducting digital forensics. It ships with out-of-the-box tools meant for penetration testing such as Nmap, Metasploit Framework, Maltego, and Aircrack-ng to mention a few.Kali Linux is meant for Cybersecurity experts and students who want to venture into penetration testing. In fact, Kali provides industry-standard certifications such as Penetration Testing with Kali and Kali Linux Certified Professional. Download <a href='https://www.kali.org/downloads/.' target="_blank">Kali Linux</a></p>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="accordion-item">
+                           <h2 class="accordion-header" id="headingNine">
+                              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseNine" aria-expanded="false" aria-controls="collapseNine">
+                              Arch Linux
+                              </button>
+                           </h2>
+                           <div id="collapseNine" class="accordion-collapse collapse" aria-labelledby="headingNine" data-bs-parent="#accordionExample">
+                              <div class="accordion-body">
+                                 <p class='lead fs-6'>Arch Linux is a lightweight and flexible geeky Linux distro designed for advanced users or Linux experts who care much about what is installed and the services running. It gives users the freedom to custom or configures the system, to their preference. In a nutshell, Arch is meant for users who really know the ins and outs of working with Linux.Arch is a rolling release implying that it is constantly updated to the latest version and all you need is to update the packages on the terminal. It uses Pacman as the default package manager and leverages the AUR (Arch User Repository) which is a community to install software packages and the latest version is 2020.09.01. Download <a href='https://www.archlinux.org/download/.' target="_blank">Arch Linux</a></p>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="accordion-item">
+                           <h2 class="accordion-header" id="headingTen">
+                              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTen" aria-expanded="false" aria-controls="collapseTen">
+                              Open SUSE
+                              </button>
+                           </h2>
+                           <div id="collapseTen" class="accordion-collapse collapse" aria-labelledby="headingTen" data-bs-parent="#accordionExample">
+                              <div class="accordion-body">
+                                 <p class='lead fs-6'>The OpenSUSE project is a modern and comprehensive community project that provides 2 main SUSE branches: SUSE Leap which is a point release that targets desktop users as well as enterprise development and for testing purposes. This makes it a perfect choice for open source developers and System administrators. On the other hand, it has SUSE Tumbleweed, a rolling release that packs the latest software stacks and IDEs and is the closest you’ll get to a bleeding-edge distro. TumbleWeed is any power user’s or software developer’s piece of cake thanks to the availability of up-to-date packages such as office applications, GCC compiler, and the kernel.
+                                    Download <a href='https://www.opensuse.org/.' target="_blank">Open SUSE</a>
+                                 </p>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <h4 id='basics' class='lead fw-bold fs-3 mt-5'>Basic Commands of Ubuntu<i class="bi bi-ubuntu mx-3 "></i></h4>
+                     <p class='lead fs-6'>Ubuntu is on of the most used linux os , lets explore some of the basics commands used in Ubuntu</p>
+                     <div class='row '>
+                        <ol class=' list-group-numbered'>
+                           <li class='lead fs-6 '>To Find the Path of the Folder</li>
+                           <div class='bg-dark text-white py-2 mt-2 mb-4'>
+                              <span class='mx-2 '>Pwd</span>
+                           </div>
+                           <li class='lead fs-6'>Lisitng of All the Folder </li>
+                           <div class='bg-dark text-white py-2 mt-2 mb-4'>
+                              <span class='mx-2'>ls</span>
+                           </div>
+                           <li class='lead fs-6'>Lisitng of  All the Folder including the hidden files </li>
+                           <div class='bg-dark text-white py-2 mt-2 mb-4'>
+                              <span class='mx-2'>ls -lx</span>
+                           </div>
+                           <li class='lead fs-6'>Shows the additional info about the folders (ex:created date,folder permissions , ) </li>
+                           <div class='bg-dark text-white py-2 mt-2 mb-4'>
+                              <span class='mx-2'>ls -l</span>
+                           </div>
+                           <li class='lead fs-6'>Make a Directory </li>
+                           <div class='bg-dark text-white py-2 mt-2 mb-4'>
+                              <span class='mx-2'>mkdir</span>
+                           </div>
+                           <li class='lead fs-6'>Change a Directory </li>
+                           <div class='bg-dark text-white py-2 mt-2 mb-4'>
+                              <span class='mx-2'>cd</span>
+                           </div>
+                           <li class='lead fs-6'>Back to Directory</li>
+                           <div class='bg-dark text-white py-2 mt-2 mb-4'>
+                              <span class='mx-2'>cd . .</span>
+                           </div>
+                           <li class='lead fs-6'>To Create a new file inside a folder</li>
+                           <div class='bg-dark text-white py-2 mt-2 mb-4'>
+                              <span class='mx-2'>touch (file name)</span>
+                           </div>
+                           <li class='lead fs-6'>To write inside the file </li>
+                           <div class='bg-dark text-white py-2 mt-2 mb-4'>
+                              <span class='mx-2'>nano (file name)</span>
+                           </div>
+                           <li class='lead fs-6'>To Read the file </li>
+                           <div class='bg-dark text-white py-2 mt-2 mb-4'>
+                              <span class='mx-2'>cat (file name)</span>
+                           </div>
+                           <li class='lead fs-6'>To Rename the file</li>
+                           <div class='bg-dark text-white py-2 mt-2 mb-4'>
+                              <span class='mx-2'>mv (old file name) (new file name)</span>
+                           </div>
+                           <li class='lead fs-6'>Copy From one file to another file</li>
+                           <div class='bg-dark text-white py-2 mt-2 mb-4'>
+                              <span class='mx-2'>cp </span>
+                           </div>
+                           <li class='lead fs-6'>Delete a file </li>
+                           <div class='bg-dark text-white py-2 mt-2 mb-4'>
+                              <span class='mx-2'>rm (File Name)</span>
+                           </div>
+                           <li>Delete a Folder </li>
+                           <div class='bg-dark text-white py-2 mt-2 mb-4'>
+                              <span class='mx-2'>rm -R (Folder Name)</span>
+                           </div>
+                           <li class='lead fs-6'>Shows the path of the application installed </li>
+                           <div class='bg-dark text-white py-2 mt-2 mb-4'>
+                              <span class='mx-2'>which</span>
+                           </div>
+                           <li>Shows the last commands used in the cmd</li>
+                           <div class='bg-dark text-white py-2 mt-2 mb-4'>
+                              <span class='mx-2'>histroy</span>
+                           </div>
+                           <li class='lead fs-6'>To install any package as a root user</li>
+                           <div class='bg-dark text-white py-2 mt-2 mb-4'>
+                              <span class='mx-2'>sudo apt -get update</span>
+                           </div>
+                           <li class='lead fs-6'>Show ip details of the machine</li>
+                           <div class='bg-dark text-white py-2 mt-2 mb-4'>
+                              <span class='mx-2'>ifconfig</span>
+                           </div>
+                           <li class='lead fs-6'>Show wireless conenction of the machine</li>
+                           <div class='bg-dark text-white py-2 mt-2 mb-4'>
+                              <span class='mx-2'>iwconfig</span>
+                           </div>
+                           <li class='lead fs-6'>Ping diffrent  machine</li>
+                           <div class='bg-dark text-white py-2 mt-2 mb-4'>
+                              <span class='mx-2'>ping</span>
+                           </div>
+                           <li class='lead fs-6'>Information about the users machine</li>
+                           <div class='bg-dark text-white py-2 mt-2 mb-4'>
+                              <span class='mx-2'>uname -a</span>
+                           </div>
+                           <li class='lead fs-6'>Show processor usage</li>
+                           <div class='bg-dark text-white py-2 mt-2 mb-4'>
+                              <span class='mx-2'>top</span>
+                           </div>
+                           <li class='lead fs-6'>Show disk space</li>
+                           <div class='bg-dark text-white py-2 mt-2 mb-4'>
+                              <span class='mx-2'>df</span>
+                           </div>
+                           <li class='lead fs-6'>Install new package</li>
+                           <div class='bg-dark text-white py-2 mt-2 mb-4'>
+                              <span class='mx-2'>sudo apt intall</span>
+                           </div>
+                           <li class='lead fs-6'>Remove a  package</li>
+                           <div class='bg-dark text-white py-2 mt-2 mb-4'>
+                              <span class='mx-2'>sudo apt remove</span>
+                           </div>
+                           <li class='lead fs-6'>Update a  package</li>
+                           <div class='bg-dark text-white py-2 mt-2 mb-4'>
+                              <span class='mx-2'>sudo apt update</span>
+                           </div>
+                           <li class='lead fs-6'>ShutDown the system</li>
+                           <div class='bg-dark text-white py-2 mt-2 mb-4'>
+                              <span class='mx-2'>sudo shutdown -h</span>
+                           </div>
+                        </ol>
+                     </div>
+                     </ol>
+                  </div>
+               </div>
+            </div>
+         </div>
+         </div>
+      </section>
+   </body>
+</html>
